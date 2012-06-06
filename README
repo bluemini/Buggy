@@ -1,0 +1,3 @@
+BUGGY
+
+Buggy is a compact single CFC based bug tracking system that loads as an extension to a cfRhino based application. Requires cfRhino v0.5 at a minimum, place the extension in a folder named buggy within your application's extesions folder.
