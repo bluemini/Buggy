@@ -1,0 +1,56 @@
+{
+	"test": {
+		"pagetitle": "Issue Tracking",
+		"spacePagelets": {
+			"head": [
+				{
+					"name": "buggy.getHead",
+					"scope": "appextfunction"
+				}
+			],
+			"menu": [
+				{
+					"name": "buggy.getNav",
+					"scope": "appextfunction"
+				}
+			],
+			"content": [
+				{
+					"name": "buggy.getTitle",
+					"scope": "appextfunction"
+				},
+				{
+					"name": "buggy.getHome",
+					"scope": "appextfunction"
+				}
+			]
+		}
+	},
+	"issue": {
+		"pagetitle": "Issue Detail",
+		"spacePagelets": {
+			"head": [
+				{
+					"name": "buggy.getHead",
+					"scope": "appextfunction"
+				}
+			],
+			"menu": [
+				{
+					"name": "buggy.getNav",
+					"scope": "appextfunction"
+				}
+			],
+			"content": [
+				{
+					"name": "buggy.getTitle",
+					"scope": "appextfunction"
+				},
+				{
+					"name": "buggy.dspIssue",
+					"scope": "appextfunction"
+				}
+			]
+		}
+	}
+}

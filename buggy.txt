@@ -1,0 +1,15 @@
+Buggy is a single cfc (plus some basic other files) issue management extension for the cfRhino framework. It
+requires cfRhino 0.5 or higher since it generates all of its content from within the extensions root cfc.
+
+INSTALLATION
+
+1. Unzip the extension into the 'extensions' folder of either you application or the cfRhino core.
+	/applications/example/extensions/buggy
+	OR
+	/rhino_core/extensions/buggy
+
+2. The main files for Buggy are the core extension cfc, a JSON descriptor of the pages, the layout templates and this file. The folder structure should look as follows:
+	[...]/buggy/buggy.cfc
+	           /buggy.json
+               /buggy.txt [this file]
+               /layouts/lyt_buggy.cfm
